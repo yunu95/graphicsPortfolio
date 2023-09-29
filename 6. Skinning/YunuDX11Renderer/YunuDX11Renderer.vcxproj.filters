@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RenderObject">
+      <UniqueIdentifier>{dc84bd7b-f064-4502-bfa9-501422e62ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\HelperObject">
+      <UniqueIdentifier>{29251fc4-c9db-4362-bb61-ee1b73864f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals">
+      <UniqueIdentifier>{91823b1e-6533-40cb-8608-d267e80afa1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals\Light">
+      <UniqueIdentifier>{9085353b-4636-4b34-a57f-accca0c82a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals\Material">
+      <UniqueIdentifier>{d3c5a7dc-7ed9-4b2d-bd47-ecba6a72e809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals\Camera">
+      <UniqueIdentifier>{cb5f1f09-1830-47f3-99d6-d71caa951f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals\Shader structure">
+      <UniqueIdentifier>{0e21ca26-641c-4133-870b-33574a0fa912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals\Shader structure\InputLayout">
+      <UniqueIdentifier>{67b1cf3b-19a2-490e-8305-4a56b94e4979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXTK">
+      <UniqueIdentifier>{e849a29a-9b37-4e43-b7f9-2d3fdf6110b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXTK\DXTKFont">
+      <UniqueIdentifier>{eed780df-656e-442f-88f6-0e1c41b90d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\HelperObject\Axis">
+      <UniqueIdentifier>{00115179-bc64-4c75-b2e5-b5214c8daada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\HelperObject\Grid">
+      <UniqueIdentifier>{5a761ba2-3db0-489f-a3fb-9afd8a0788f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\SampleObject">
+      <UniqueIdentifier>{6eceb635-70a6-421b-a7f0-1779bac64c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\SampleObject\Crate">
+      <UniqueIdentifier>{d57793a8-311f-4e5b-800d-1cdacc2c0e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals\Geometry">
+      <UniqueIdentifier>{97afc586-ef69-4a17-8039-cf15d9d4fd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals\Effects">
+      <UniqueIdentifier>{c5245c49-6cd8-4616-934a-829dbd3886c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{e3b248b7-52eb-4369-8334-b65ac94ca371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\YunuMath">
+      <UniqueIdentifier>{c69a9608-dc44-4916-9b7b-3093de5a6c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\DDSTextureLoader">
+      <UniqueIdentifier>{360adf0d-c7ca-4e65-b718-622cd8e6c73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{237c122f-c26e-4628-a3fc-1d224eba9ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\SampleObject\SiegeTank">
+      <UniqueIdentifier>{9600bd4e-74df-4b5d-a874-f905443da4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\MeshObject">
+      <UniqueIdentifier>{4d356994-b115-42c2-86ca-c26fcd1b36a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3dUtil">
+      <UniqueIdentifier>{81442fe9-a912-4306-8bc9-28f5aa1fcc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightObjects">
+      <UniqueIdentifier>{a0d59e7c-1fad-482d-b9ec-39f3fae5bfe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightObjects\PointLightObject">
+      <UniqueIdentifier>{6deda0b9-3c5a-4906-91f7-4e352857f036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightObjects\DirectionalLightObject">
+      <UniqueIdentifier>{e95a0d99-1957-4b1b-8ccc-184edcddda05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightObjects\SpotLightObject">
+      <UniqueIdentifier>{0548c939-f743-4210-be90-b8b8c4a2370c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRenderable">
+      <UniqueIdentifier>{b8e681a0-909a-4366-9c2d-ba8ab3b741eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\HelperObject\DebugSphere">
+      <UniqueIdentifier>{37b27d0e-77a8-44ad-83cb-d33bb3fd779e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fundamentals\Effects\PosColorEffect">
+      <UniqueIdentifier>{e62fbffe-d92d-4fc8-9c7f-c6b6e8b91121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\HelperObject\DebugCone">
+      <UniqueIdentifier>{cdc18bf1-7b06-451c-94e4-814ac7cdeecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\HelperObject\DebugArrow">
+      <UniqueIdentifier>{a3e89c42-941a-4215-9f5f-49142578faa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObject\SkinnedMesh">
+      <UniqueIdentifier>{75bd3710-6ff8-4d90-a85e-820c887ad0dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YunuDX11Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Fundamentals\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Fundamentals\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Fundamentals\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Fundamentals\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Fundamentals\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11Effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Fundamentals\Shader structure</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayout.h">
+      <Filter>Fundamentals\Shader structure\InputLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTKFont.h">
+      <Filter>DXTK\DXTKFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Fundamentals\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>RenderObject\HelperObject\Axis</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>RenderObject\HelperObject\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Crate.h">
+      <Filter>RenderObject\SampleObject\Crate</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Fundamentals\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Fundamentals\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="YunuMath.h">
+      <Filter>Utility\YunuMath</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Utility\DDSTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="SiegeTank.h">
+      <Filter>RenderObject\SampleObject\SiegeTank</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>RenderObject\MeshObject</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>d3dUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightObject.h">
+      <Filter>LightObjects\DirectionalLightObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightObject.h">
+      <Filter>LightObjects\SpotLightObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightObject.h">
+      <Filter>LightObjects\PointLightObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSphere.h">
+      <Filter>RenderObject\HelperObject\DebugSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="PosEffect.h">
+      <Filter>Fundamentals\Effects\PosColorEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCone.h">
+      <Filter>RenderObject\HelperObject\DebugCone</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugArrow.h">
+      <Filter>RenderObject\HelperObject\DebugArrow</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>IRenderable</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMesh.h">
+      <Filter>RenderObject\SkinnedMesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YunuDX11Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>RenderObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Fundamentals\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayout.cpp">
+      <Filter>Fundamentals\Shader structure\InputLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTKFont.cpp">
+      <Filter>DXTK\DXTKFont</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>RenderObject\HelperObject\Axis</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>RenderObject\HelperObject\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Crate.cpp">
+      <Filter>RenderObject\SampleObject\Crate</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Fundamentals\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Fundamentals\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="YunuMath.cpp">
+      <Filter>Utility\YunuMath</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Utility\DDSTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="SiegeTank.cpp">
+      <Filter>RenderObject\SampleObject\SiegeTank</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>RenderObject\MeshObject</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtil.cpp">
+      <Filter>d3dUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightObject.cpp">
+      <Filter>LightObjects\DirectionalLightObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightObject.cpp">
+      <Filter>LightObjects\SpotLightObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightObject.cpp">
+      <Filter>LightObjects\PointLightObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSphere.cpp">
+      <Filter>RenderObject\HelperObject\DebugSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="PosEffect.cpp">
+      <Filter>Fundamentals\Effects\PosColorEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCone.cpp">
+      <Filter>RenderObject\HelperObject\DebugCone</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugArrow.cpp">
+      <Filter>RenderObject\HelperObject\DebugArrow</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMesh.cpp">
+      <Filter>RenderObject\SkinnedMesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YunuDX11Renderer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="YunuDX11Renderer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Basic.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="BasicTex.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="color.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Pos.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Basic.fx" />
+    <FxCompile Include="FX\LightHelper.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="SkinnedBasicTex.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

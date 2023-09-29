@@ -1,0 +1,2 @@
+﻿#define YUNUD2DGRAPHICCORE_API __declspec(dllexport)
+#define YUNUD2DGRAPHICCORE_API __declspec(dllimport)

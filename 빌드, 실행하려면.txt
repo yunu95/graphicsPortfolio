@@ -1,0 +1,2 @@
+빌드 환경을 debug / (x86 / win32)로 세팅
+시작 프로젝트를 EngineDemo로 세팅

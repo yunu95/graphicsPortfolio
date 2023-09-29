@@ -1,0 +1,4 @@
+1. DRDX11Renderer
+ 게임 초기화에서도 가장 으뜸으로 불리는 함수가 DRDX11Renderer.Intialize이다.
+
+2. 
